@@ -284,7 +284,7 @@ def Game(D):
             player_map[y][x] = mine_map[y][x]
         display(player_map, n, k, player_map)
         #continue      
-
+        
 if __name__ == "__main__": # where the entire program start
     print('''
     MINESWEEPER -- simple version
