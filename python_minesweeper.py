@@ -17,7 +17,7 @@ def check_number_beside(x, y, mine_map, player_map):
             except:
                 True
     return player_map
-
+ 
 def beside_blank_reveal(mine_map, player_map):
     for y, j in enumerate(player_map):
         for x, i in enumerate(j):
