@@ -313,7 +313,7 @@ if __name__ == "__main__": # where the entire program start
     
     
     ''')
-     
+    
     print("\033[1;34;48m", end = "") # color blue start
     print('Enter the difficulty: (E = Easy, N = Normal, H = Hard)', end = "")
     print("\033[0m") # color blue end
